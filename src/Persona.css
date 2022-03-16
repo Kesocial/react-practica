@@ -1,0 +1,19 @@
+.Persona {
+  display: flex;
+  justify-content: flex-start;
+
+  height: 4ch;
+  overflow: hidden;
+  background-color: #1b263b;
+  border: 2px solid #778da9;
+  padding: 10px;
+  flex-direction: column;
+  transition: height 0.5s ease-in-out;
+  color: #e0e1dd;
+}
+
+.activo {
+  position: relative;
+  height: 10ch !important;
+  z-index: 100;
+}
